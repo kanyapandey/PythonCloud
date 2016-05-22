@@ -2,7 +2,6 @@ import json
 from sklearn import neighbors, datasets
 import numpy as np
 import parseservice
-import flask import Flask
 
 class UserHandler:
     def on_get(self, req, resp,account_id):
